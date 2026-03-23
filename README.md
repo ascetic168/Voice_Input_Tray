@@ -27,7 +27,7 @@
 
 ### 1. 下載程式
 
-前往 [Releases 頁面](releases) 下載最新版本的 `voice_input.exe`。
+前往 [Releases 頁面](https://github.com/ascetic168/Voice_Input_Tray/releases/tag/%23voice_input) 下載最新版本的 `voice_input.exe`。
 
 ### 2. 驗證檔案完整性
 
