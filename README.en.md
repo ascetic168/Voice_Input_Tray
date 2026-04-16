@@ -2,18 +2,18 @@
 
 **[正體中文](README.md)** | **[简体中文](README.zh-CN.md)** | **[English](README.en.md)**
 
-> Voice recognition input tool — Fully local, no cloud required (ideal for enterprises or classified environments), low-latency streaming ASR + SenseVoice text correction
+> Voice recognition input tool — Runs smoothly on CPU alone, no GPU required. Fully local, no cloud needed (ideal for enterprises or classified environments), low-latency streaming ASR + SenseVoice text correction
 
 ## Project Status
 
-✅ **Released v0.3.6** — Optimized recognition speed: removed the CT-Transformer punctuation model and now uses SenseVoice's built-in ITN to output punctuation directly, reducing additional inference latency for faster recognition.
+✅ **Released v0.4.0** — New Listening Mode: double-tap right Ctrl to activate continuous listening and recognition until manually turned off.
 
 ## Why Use This Tool
 
 Compared to other voice input tools on the market, Voice Input Tray solves three core pain points:
 
-### 1. Fully Local, Zero Privacy Concerns
-All speech recognition runs on your machine — audio is never uploaded to any server. It uses a dual-engine architecture combining streaming Zipformer for real-time recognition with SenseVoice for offline correction. No internet connection or API keys required; just download the models and use it offline.
+### 1. Fully Local, Zero Privacy Concerns, No GPU Required
+All speech recognition runs on your machine — audio is never uploaded to any server. It uses a dual-engine architecture combining streaming Zipformer for real-time recognition with SenseVoice for offline correction. **Runs smoothly on CPU alone — no dedicated GPU or CUDA required.** No internet connection or API keys required; just download the models and use it offline.
 
 ### 2. Streaming + Offline Dual-Engine Collaboration, Zero-Delay Feedback
 An innovative streaming-offline collaboration architecture:
@@ -30,6 +30,7 @@ Just hold the Ctrl key to start recording. The app automatically detects your in
 ## Features
 
 - **Fully Local** — Streaming Zipformer + SenseVoice dual-engine, entirely offline, zero privacy concerns
+- **CPU-Only, No GPU Needed** — Runs smoothly on any modern laptop or desktop; no CUDA or dedicated GPU required
 - **Streaming Real-Time Feedback** — See recognition results as you speak via the overlay floating window
 - **SenseVoice Quality Correction** — Automatically replaces streaming results with high-accuracy offline engine output
 - **SenseVoice Built-in Punctuation** — ITN enabled to output punctuation marks (。, ? etc.) directly, no extra model needed, faster recognition
@@ -40,6 +41,7 @@ Just hold the Ctrl key to start recording. The app automatically detects your in
 - **Auto Fallback** — Set priority order; if one engine fails, the next one is tried automatically
 - **Cross-Platform** — Supports Windows, macOS, and Linux
 - **Hotkey Trigger** — Hold Ctrl to start recording, release to auto-recognize and paste
+- **Listening Mode** — Double-tap right Ctrl to activate continuous listening and recognition until manually turned off
 - **System Tray** — Runs in the background without disrupting your workflow
 - **Simplified/Traditional Conversion** — Automatically converts Chinese text based on system locale, applies to both streaming and final results
 - **Multi-Language UI** — Supports 繁體中文, 简体中文, and English interface
@@ -120,25 +122,6 @@ User presses Ctrl
   convert.rs (Simplified/Traditional conversion based on system locale)
        ↓
   clipboard.rs (save original clipboard → set text → Ctrl+V → restore clipboard)
-```
-
-## Development Commands
-
-```bash
-# Install dependencies
-npm install
-
-# Development mode (hot-reload frontend + Rust live compilation)
-npm run tauri:dev
-
-# Build release version
-npm run tauri:build
-
-# Build frontend only
-npm run build
-
-# Launch in debug mode (shows console log)
-voice-input-tray.exe --debug
 ```
 
 ## License
