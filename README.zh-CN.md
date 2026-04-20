@@ -55,7 +55,7 @@
 - **串流 Zipformer**（即时）— 中英双语串流识别，边说边显示
 - **SenseVoice-Small (INT8)**（离线修正）— 高精度离线识别，支持中英日韩语，内置 ITN 直接输出标点
 - 特色：全程离线、零隐私疑虑、首次启动自动下载模型
-- 模型储存位置：`C:\ProgramData\VoiceInput\models\`（Windows）
+- 模型储存位置：`C:\ProgramData\VoiceTray\models\`（Windows）
 
 ### 腾讯云 ASR
 - **SentenceRecognition API** - 同步识别

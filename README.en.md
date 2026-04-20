@@ -55,7 +55,7 @@ Just hold the Ctrl key to start recording. The app automatically detects your in
 - **Streaming Zipformer** (real-time) — Bilingual Chinese-English streaming recognition, results shown as you speak
 - **SenseVoice-Small (INT8)** (offline correction) — High-accuracy offline recognition, supports Chinese, English, Japanese, and Korean, with built-in ITN for direct punctuation output
 - Features: Fully offline, zero privacy concerns, auto-downloads models on first launch
-- Model storage location: `C:\ProgramData\VoiceInput\models\` (Windows)
+- Model storage location: `C:\ProgramData\VoiceTray\models\` (Windows)
 
 ### Tencent Cloud ASR
 - **SentenceRecognition API** — Synchronous recognition
