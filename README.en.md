@@ -6,7 +6,7 @@
 
 ## Project Status
 
-✅ **Released v0.4.2** — Live Caption Mode adds mid-segment SenseVoice dual-color real-time recognition (experimental), speech-rate adaptive segmentation, and multiple stability fixes.
+✅ **Released v0.4.4** — New Conference Mode (simultaneous microphone + system audio capture, dual overlay for both parties, auto-saved merged transcript), echo suppression, and multiple stability fixes.
 
 ## Why Use This Tool
 
@@ -43,7 +43,9 @@ Just hold the Ctrl key to start recording. The app automatically detects your in
 - **Hotkey Trigger** — Hold Ctrl to start recording, release to auto-recognize and paste
 - **Listening Mode** — Double-tap right Ctrl to activate continuous listening and recognition until manually turned off
 - **Live Caption Mode** 🧪 — Captures system audio output for real-time recognition, displayed as multi-line captions in the overlay, with auto-saved transcript on close (mid-segment SenseVoice dual-color recognition is an experimental feature)
+- **Conference Mode** 🧪 — Simultaneously captures microphone (local) and system audio (remote), dual overlay shows both parties' recognition results in real time, built-in echo suppression, auto-saves merged transcript with timestamps and source labels on close
 - **System Tray** — Runs in the background without disrupting your workflow
+- **Log Directory Shortcut** — One-click access to transcript folder from tray menu
 - **Simplified/Traditional Conversion** — Automatically converts Chinese text based on system locale, applies to both streaming and final results
 - **Multi-Language UI** — Supports 繁體中文, 简体中文, and English interface
 - **Auto-Start on Boot** — Supports launching automatically on system startup
