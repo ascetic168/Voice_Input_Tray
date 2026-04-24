@@ -6,7 +6,7 @@
 
 ## Project Status
 
-✅ **Released v0.4.5** — New AI Proofreading feature (auto-corrects ASR homophone errors, truncated sentences, and punctuation via LLM when closing caption/conference mode), supports Ollama / OpenAI / Zhipu and other backends.
+✅ **Released v0.4.6** — Improved live caption sentence boundary detection with text rhythm (EMA) algorithm that dynamically adapts to speech speed, replacing the ineffective VAD silence detection for continuous speech, significantly improving segmentation quality for news broadcasts and similar content.
 
 ## Why Use This Tool
 
