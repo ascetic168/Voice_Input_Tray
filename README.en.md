@@ -6,7 +6,7 @@
 
 ## Project Status
 
-✅ **Released v0.4.7** — Added speaker voiceprint recognition to conference mode using the eres2net-v2 model. Automatically identifies different speakers and labels them (Speaker_1, Speaker_2...) in the overlay and transcript. SQLite database for persistent speaker profiles across sessions.
+✅ **Released v0.4.8** — Added speaker voiceprint management: dedicated window accessible from the tray menu for browsing (paginated), inline renaming, and deleting speaker profiles. Data sorted by creation time in descending order, with full trilingual UI support.
 
 ## Why Use This Tool
 
