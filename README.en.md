@@ -6,7 +6,7 @@
 
 ## Project Status
 
-✅ **Released v0.4.9** — Added AI meeting summary: auto-generates structured Markdown summaries (executive summary, attendees, discussion topics, key decisions, action items, key details) when a conference ends, using the same LLM endpoint as AI proofreading.
+✅ **Released v0.4.10** — Speaker management enhancements: fixed accidental deletion of other speakers' embeddings when deleting a speaker, added merge-on-duplicate-name feature, restored name uniqueness constraint, fixed stale data in management UI.
 
 ## Why Use This Tool
 
