@@ -1,4 +1,6 @@
-# VoiceTray
+# EchoNote
+
+> ⚠️ **VoiceTray has been renamed to EchoNote**. The new project is at [github.com/ascetic168/EchoNote](https://github.com/ascetic168/EchoNote). This repository is no longer maintained.
 
 **[正體中文](README.md)** | **[简体中文](README.zh-CN.md)** | **[English](README.en.md)**
 
@@ -6,11 +8,11 @@
 
 ## Project Status
 
-✅ **Released v0.4.10** — Speaker management enhancements: fixed accidental deletion of other speakers' embeddings when deleting a speaker, added merge-on-duplicate-name feature, restored name uniqueness constraint, fixed stale data in management UI.
+✅ **Released v0.5.0** — Project renamed to EchoNote.
 
 ## Why Use This Tool
 
-Compared to other voice input tools on the market, VoiceTray solves three core pain points:
+Compared to other voice input tools on the market, EchoNote solves three core pain points:
 
 ### 1. Fully Local, Zero Privacy Concerns, No GPU Required
 All speech recognition runs on your machine — audio is never uploaded to any server. It uses a dual-engine architecture combining streaming Zipformer for real-time recognition with SenseVoice for offline correction. **Runs smoothly on CPU alone — no dedicated GPU or CUDA required.** No internet connection or API keys required; just download the models and use it offline.
@@ -57,7 +59,7 @@ Just hold the Ctrl key to start recording. The app automatically detects your in
 - **Streaming Zipformer** (real-time) — Bilingual Chinese-English streaming recognition, results shown as you speak
 - **SenseVoice-Small (INT8)** (offline correction) — High-accuracy offline recognition, supports Chinese, English, Japanese, and Korean, with built-in ITN for direct punctuation output
 - Features: Fully offline, zero privacy concerns, auto-downloads models on first launch
-- Model storage location: `C:\ProgramData\VoiceTray\models\` (Windows)
+- Model storage location: `C:\ProgramData\EchoNote\models\` (Windows)
 
 ### Tencent Cloud ASR
 - **SentenceRecognition API** — Synchronous recognition
@@ -74,7 +76,7 @@ Just hold the Ctrl key to start recording. The app automatically detects your in
 
 ### Installation
 
-Download the installer from the [Releases page](https://github.com/ascetic168/VoiceTray/releases).
+Download the installer from the [Releases page](https://github.com/ascetic168/EchoNote/releases).
 
 ### First Launch
 

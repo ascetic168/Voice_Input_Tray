@@ -1,4 +1,6 @@
-# VoiceTray
+# EchoNote
+
+> ⚠️ **VoiceTray 已更名為 EchoNote**，新專案位於 [github.com/ascetic168/EchoNote](https://github.com/ascetic168/EchoNote)，本倉庫已停止維護。
 
 **[正體中文](README.md)** | **[简体中文](README.zh-CN.md)** | **[English](README.en.md)**
 
@@ -6,11 +8,11 @@
 
 ## 專案狀態
 
-✅ **已發布 v0.4.10** — 聲紋辨識管理增強：修復刪除聲紋誤刪其他人的 embeddings、新增同名合併聲紋功能、恢復名稱唯一約束、修復管理介面開啟時顯示過時資料。
+✅ **已發布 v0.5.0** — 專案更名為 EchoNote。
 
 ## 為什麼使用這個程式
 
-與市面上其他語音輸入工具相比，VoiceTray 解決了三個核心痛點：
+與市面上其他語音輸入工具相比，EchoNote 解決了三個核心痛點：
 
 ### 1. 全本地運行，零隱私疑慮，無需 GPU
 所有語音辨識都在本機完成，音訊不會上傳到任何伺服器。採用串流 Zipformer 即時辨識搭配 SenseVoice 離線修正的雙引擎架構，**純 CPU 即可流暢運行，無需獨立顯示卡或 CUDA 環境**，無需網路、無需 API 金鑰，下載模型後即可離線使用。
@@ -57,7 +59,7 @@
 - **串流 Zipformer**（即時）— 中英雙語串流辨識，邊說邊顯示
 - **SenseVoice-Small (INT8)**（離線修正）— 高精度離線辨識，支援中英日韓語，內建 ITN 直接輸出標點
 - 特色：全程離線、零隱私疑慮、首次啟動自動下載模型
-- 模型儲存位置：`C:\ProgramData\VoiceTray\models\`（Windows）
+- 模型儲存位置：`C:\ProgramData\EchoNote\models\`（Windows）
 
 ### 騰訊雲 ASR
 - **SentenceRecognition API** - 同步辨識
@@ -74,7 +76,7 @@
 
 ### 安裝
 
-請至[Releases頁面](https://github.com/ascetic168/VoiceTray/releases)下載安裝檔。
+請至[Releases頁面](https://github.com/ascetic168/EchoNote/releases)下載安裝檔。
 
 ### 首次啟動
 
